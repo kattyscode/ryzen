@@ -1,0 +1,5 @@
+composer create-project croogo/app myapp
+cd myapp
+composer install
+$EDITOR config/app.php # change database access credentials
+bin/cake server # then browse to http://localhost:8765 or use vhost
